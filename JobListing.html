@@ -1,0 +1,62 @@
+<!-- Amna Shahid, 21I-1148, Web Engineering, Assignment 1, SE-Q. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body class="body">
+    <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+    <div id="content"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <header class="header">
+        
+            <img src="bg-header-desktop.svg" width=100%>
+            <nav class="nav"></nav>
+    </header>
+</br>
+    <!-- code for filter container -->
+
+ <div class="filter-container, center" style="height: 30px;">
+    <div class="filter-header">
+    </div>
+    <div class="filter-options">
+            <button>Frontend  X</button>
+            <button>Backend X</button>
+            <button>FullStack  X</button>
+            <button class="clear" style="justify-content: end; color: darkcyan;"><b>clear</b></button>
+   </div>
+</div>
+</br>
+<div class="center" style="height: 80px;">
+    <img src="/images/photosnap.svg" style="width:70px;"></td>
+</div>
+
+</br>
+<div class="center" style="height: 80px;">
+    <img src="/images/myhome.svg" style="width: 70px;"/>
+</div>
+</br>
+<div class="center" style="height: 80px;">
+    <img src="/images/insure.svg" style="width: 70px;"/>
+</div>
+
+<div class="job-listings"> 
+    <!-- Job listings go here -->
+</div>
+</body>
+</html>                    
+
+
+

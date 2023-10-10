@@ -1,0 +1,101 @@
+/*Amna Shahid, 21I-1148, Web Engineering, Assignment 1, SE-Q*/
+
+ .body{
+    background-color:lightcyan;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: darkcyan;
+    margin: 0px 0px;
+}
+
+.nav{
+    display: block;
+}
+
+/* for desktop */
+  @media (min-width: 1440px) {
+    .filter-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .col-12 {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+/* for mobiles */
+@media (max-width: 375px) {
+    .filter-container {
+        padding: 10px; 
+    }
+    .col-12 {
+        width: 100%;
+        float: none;
+    }
+}
+ 
+  .filter-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+.center {
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  } 
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.filter-options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.job-listings {
+     /* Job listings styles go here  */
+} 
+
+.delete-button {
+    background-color: lightcyan; 
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: darkcyan;
+}
+
+
+
+
+
+
+ 
